@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZendeskBindingsApp", "ZendeskBindingsApp\ZendeskBindingsApp.csproj", "{8DEEEFD8-4FCE-4E37-B69D-358259BE46F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoCCrashlyticsAnswersShimBindings", "HoCCrashlyticsAnswersShimBindings\HoCCrashlyticsAnswersShimBindings.csproj", "{5417C065-A0B7-4348-9090-B4A17DF5E032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoCZendeskBelvedereBindings", "HoCZendeskBelvedereBindings\HoCZendeskBelvedereBindings.csproj", "{220AB8EB-3719-450A-888F-2732F4AD24E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoCZendeskSDKProvidersBindings", "HoCZendeskSDKProvidersBindings\HoCZendeskSDKProvidersBindings.csproj", "{B1DE15A1-FD55-460D-9F5E-E83DCA7600BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoCZendeskSDKBindings", "HoCZendeskSDKBindings\HoCZendeskSDKBindings.csproj", "{AE7C08C7-E228-4188-9018-93765B42847C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DEEEFD8-4FCE-4E37-B69D-358259BE46F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DEEEFD8-4FCE-4E37-B69D-358259BE46F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DEEEFD8-4FCE-4E37-B69D-358259BE46F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DEEEFD8-4FCE-4E37-B69D-358259BE46F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5417C065-A0B7-4348-9090-B4A17DF5E032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5417C065-A0B7-4348-9090-B4A17DF5E032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5417C065-A0B7-4348-9090-B4A17DF5E032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5417C065-A0B7-4348-9090-B4A17DF5E032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220AB8EB-3719-450A-888F-2732F4AD24E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220AB8EB-3719-450A-888F-2732F4AD24E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220AB8EB-3719-450A-888F-2732F4AD24E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220AB8EB-3719-450A-888F-2732F4AD24E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DE15A1-FD55-460D-9F5E-E83DCA7600BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DE15A1-FD55-460D-9F5E-E83DCA7600BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DE15A1-FD55-460D-9F5E-E83DCA7600BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DE15A1-FD55-460D-9F5E-E83DCA7600BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7C08C7-E228-4188-9018-93765B42847C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7C08C7-E228-4188-9018-93765B42847C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7C08C7-E228-4188-9018-93765B42847C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7C08C7-E228-4188-9018-93765B42847C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

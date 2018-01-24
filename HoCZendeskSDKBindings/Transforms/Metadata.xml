@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <remove-node path="/api/package[@name='com.zendesk.sdk.deeplinking']" />
+  <remove-node path="/api/package[@name='com.zendesk.sdk.deeplinking.actions']" />
+  <remove-node path="/api/package[@name='com.zendesk.sdk.deeplinking.targets']" />
+  <remove-node path="/api/package[@name='com.zendesk.sdk.rating']" />
+  <remove-node path="/api/package[@name='com.zendesk.sdk.rating.impl']" />
+  <remove-node path="/api/package[@name='com.zendesk.sdk.rating.ui']" />
+  <remove-node path="/api/package[@name='com.zendesk.sdk.network']" />
+  <remove-node path="/api/package[@name='com.zendesk.sdk.network.impl']" />
+  <remove-node path="/api/package[@name='com.zendesk.sdk.attachment']" />
+
+</metadata>

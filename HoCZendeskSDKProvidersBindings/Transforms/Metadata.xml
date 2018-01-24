@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<remove-node path="/api/package[@name='com.zendesk.sdk.model.helpcenter']/class[@name='FlatArticle']" />
+	<remove-node path="/api/package[@name='com.google.gson.internal']" />
+	<remove-node path="/api/package[@name='com.google.gson.internal.bind']" />
+	<remove-node path="/api/package[@name='com.google.gson.internal.bind.util']" />
+    <remove-node path="/api/package[@name='okhttp3.internal']" />
+    <remove-node path="/api/package[@name='okhttp3.internal.connection']" />
+    <remove-node path="/api/package[@name='okhttp3.internal.http']" />
+    <remove-node path="/api/package[@name='okhttp3.internal.http1']" />
+    <remove-node path="/api/package[@name='okhttp3.internal.http2']" />
+    <remove-node path="/api/package[@name='okhttp3.internal.platform']" />
+    <remove-node path="/api/package[@name='okhttp3.internal.tls']" />
+    <remove-node path="/api/package[@name='okhttp3.internal.ws']" />
+    <remove-node path="/api/package[@name='okio']/interface[@name='BufferedSink']/method[@name='flush' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='okio']/interface[@name='Source']/method[@name='close' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='okio']/interface[@name='Sink']/method[@name='close' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='okio']/interface[@name='Sink']/method[@name='flush' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='clone' and count(parameter)=0]" />
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']" name="managedName">OkioBuffer</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='emitCompleteSegments' and count(parameter)=0]" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='write']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeByte']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeDecimalLong']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeHexadecimalUnsignedLong']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeInt']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeIntLe']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeLong']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeLongLe']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeShort']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeShortLe']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeString']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeUtf8']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='writeUtf8CodePoint']" name="managedReturn">Okio.IBufferedSink</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Buffer']/method[@name='write' and count(parameter)=2 and parameter[1][@type='okio.Buffer'] and parameter[2][@type='long']]" name="managedReturn">void</attr>
+    <attr path="/api/package[@name='okio']/class[@name='Options']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">GetByteString</attr>
+
+
+	<attr path="/api/package[@name='com.google.gson']" name="managedName">Google.Gson</attr>
+	<attr path="/api/package[@name='com.google.gson.annotations']" name="managedName">Google.Gson.Annotations</attr>
+	<attr path="/api/package[@name='com.google.gson.stream']" name="managedName">Google.Gson.Stream</attr>
+	<attr path="/api/package[@name='com.google.gson.reflect']" name="managedName">Google.Gson.Reflect</attr>
+	<attr path="/api/package[@name='com.google.gson']/class[@name='JsonStreamParser']/method[@name='next']" name="managedReturn">Java.Lang.Object</attr>
+	<remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+</metadata>
