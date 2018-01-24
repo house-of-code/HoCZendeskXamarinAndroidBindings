@@ -58,5 +58,8 @@
   <ItemGroup>
     <LibraryProjectZip Include="Jars\belvedere-1.0.2.1.aar" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\picasso-2.5.2.jar" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

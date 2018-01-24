@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>HoC.Zendesk.SDK.Bindings</id>
-        <version>1.9.2.1</version>
+        <version>1.9.2.2</version>
         <description>Xamarin Binding Library - Zendesk SDK</description>
         <authors>Gert Lavsen</authors>
         <owners>House of Code Aps</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>Zendesk Provider</title>
-        <releaseNotes>Zendesk SDK 1.9.2.1</releaseNotes>
+        <releaseNotes>Bindings with Zendesk SDK 1.9.2.1</releaseNotes>
         <summary>Xamarin Binding Library - Zendesk SDK</summary>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/house-of-code/HoCZendeskXamarinAndroidBindings</projectUrl>
